@@ -45,7 +45,7 @@ set laststatus=2
 
 " ステータスラインの書式
 " *要 vim-fugitive
-" set statusline=%F\ [%Y][%{&fileencoding}]%=%{fugitive#statusline()}\ %l/%L\ %c\ %P
+set statusline=%F\ [%Y][%{&fileencoding}]%=%{fugitive#statusline()}\ %l/%L\ %c\ %P
 
 " クリップボード連携
 set clipboard=unnamed,autoselect
