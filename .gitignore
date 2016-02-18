@@ -1,1 +1,18 @@
-*.log
+# 無効にするファイルの種類
+.svn
+.DS_Store
+.netwhist
+*.swp
+.*.swp
+*~
+.*~
+tags.lock
+/.vim/.netrwhist
+
+# vim プラグインディレクトリを対象外にする
+/.vim/bundle/
+
+# tags ファイル配置ディレクトリのみを対象とする
+/tags/*.tags
+/tags/*/
+!/tags/README
