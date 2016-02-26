@@ -8,6 +8,7 @@
 .*~
 tags.lock
 /.vim/.netrwhist
+*.log
 
 # vim プラグインディレクトリを対象外にする
 /.vim/bundle/
