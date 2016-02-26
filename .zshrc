@@ -15,6 +15,9 @@ setopt pushd_ignore_dups
 export LANG=ja_JP.UTF-8
 export LESSCHARSET=utf-8
 
+# 日本語ファイル名等8ビトを通す。
+setopt print_eight_bit
+
 # キーバインドを vim モードにする。
 bindkey -d
 bindkey -v
