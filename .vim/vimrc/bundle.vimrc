@@ -29,10 +29,6 @@ NeoBundle 'https://github.com/scrooloose/nerdcommenter.git'
 " Color Scheme
 NeoBundle 'https://github.com/nanotech/jellybeans.vim.git'
 
-" Markdown
-" NeoBundle 'https://github.com/tyru/open-browser.vim.git'
-" NeoBundle 'https://github.com/kannokanno/previm.git'
-
 " submode.vim
 " ユーザが自由にサブモードを定義できるプラグイン。
 " タブ操作をカスタマイズするのに使用している。
