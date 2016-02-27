@@ -1,4 +1,7 @@
 #/bin/bash
+git config --global color.ui.auto
+git config --global core.editor vim
+git config --global credential.helper cache --timeout=36000
 
 # 改行コードを自動変換しない。
 git config --global core.autocrlf false
