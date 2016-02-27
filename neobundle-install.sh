@@ -4,6 +4,6 @@
 git clone https://github.com/Shougo/neobundle.vim.git $HOME/.vim/bundle/neobundle.vim
 
 # Vim のプラグインをインストールします。
-vim -u $HOME/dotfiles/.vimrc.init -c NeoBundleInstall! -c q
+vim -u $HOME/dotfiles-win/.vimrc.init -c NeoBundleInstall! -c q
 
 exit 0
