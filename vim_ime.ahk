@@ -57,7 +57,7 @@ Esc::
     Send,{Esc}
     IME_SET(0)
   } else {
-    Send,{Esc}
+    Send,^j
   }
   Return
 #IfWinActive
