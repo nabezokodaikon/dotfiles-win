@@ -61,3 +61,14 @@ Esc::
   }
   Return
 #IfWinActive
+
+;Ctrl+Spaceで全角/半角キー
+^Space::  
+  getIMEMode := IME_Get()
+  if (%getIMEMode% = 0) {
+    IME_SET(1)
+    Return
+  } else {
+    IME_SET(0)
+    Return
+  }
