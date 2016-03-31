@@ -60,8 +60,6 @@ Esc::
     Send,^j
   }
   Return
-#IfWinActive
-
 ;Ctrl+Spaceで全角/半角キー
 ^Space::  
   getIMEMode := IME_Get()
@@ -72,3 +70,4 @@ Esc::
     IME_SET(0)
     Return
   }
+#IfWinActive
