@@ -6,6 +6,7 @@
 .*.swp
 *~
 .*~
+tags
 tags.lock
 /.vim/.netrwhist
 *.log

@@ -16,6 +16,18 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " プラグイン管理
 NeoBundle 'https://github.com/Shougo/neobundle.vim.git'
 
+" unite.vim
+NeoBundle 'https://github.com/Shougo/unite.vim.git'
+
+" neomru.vim
+NeoBundle 'https://github.com/Shougo/neomru.vim.git'
+
+" unite-outline
+NeoBundle 'https://github.com/Shougo/unite-outline.git'
+
+" auto-ctags.vim
+NeoBundle 'https://github.com/soramugi/auto-ctags.vim.git'
+
 " emmet-vim
 NeoBundle 'https://github.com/mattn/emmet-vim.git'
 
