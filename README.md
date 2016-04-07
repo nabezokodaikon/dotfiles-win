@@ -1,10 +1,7 @@
 # Windows用 dotfiles
 
-## インストール
+## 設定ファイルのシンボリックリンク作成
+コマンドプロントでホームディレクトリに移動し、以下のように`create-symlinks.bat`を実行します。
 ```
-$ mklink .zshrc dotfiles-win\.zshrc
-$ mklink .tmux.conf dotfiles-win\.tmux.conf
-$ mklink .tigrc dotfiles-win\.tigrc
-$ mklink .vimrc dotfiles-win\.vimrc
-$ mklink /D .vim dotfiles-win\.vim
+$ dotfiles\create-symlinks.bat
 ```
