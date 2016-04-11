@@ -1,4 +1,7 @@
 # tig 設定
 
+# 主な設定
+source ~/dotfiles-win/tig/config.tigrc
+
 # 色設定
 source ~/dotfiles-win/tig/colorscheme.tigrc
