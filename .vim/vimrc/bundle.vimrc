@@ -55,6 +55,12 @@ NeoBundle 'https://github.com/tpope/vim-fugitive.git'
 " vim のカーソル移動を便利にする。
 NeoBundle 'https://github.com/easymotion/vim-easymotion.git'
 
+" vimでgistを操作する。
+NeoBundle 'https://github.com/lambdalisue/vim-gista.git'
+
+" unite.vimでvim-gistaを使用する。
+NeoBundle 'https://github.com/lambdalisue/vim-gista-unite.git'
+
 " end plugins
 call neobundle#end()
 

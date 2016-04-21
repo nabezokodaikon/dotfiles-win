@@ -18,6 +18,8 @@ nnoremap <silent> [unite]b :<C-u>Unite buffer<CR>
 nnoremap <silent> [unite]o :<C-u>Unite outline -no-start-insert<CR>
 " タブ一覧
 nnoremap <silent> [unite]g :<C-u>Unite tab<CR>
+" gist一覧
+nnoremap <silent> [unite]s :<C-u>Unite gista<CR>
 
 " action 選択時に、インサートモードで開始する。
 call unite#custom#profile('action', 'context', {'start_insert' : 1})
