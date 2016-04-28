@@ -7,7 +7,7 @@ nmap     <Space>u [unite]
 
 " 各種表示
 " ファイル一覧 or git 管理ファイル一覧
-nnoremap <silent> [unite]f :<C-u>Unite -start-insert file_rec<CR>
+nnoremap <silent> [unite]f :<C-u>Unite -start-insert file_rec file/new -buffer-name=file<CR>
 " 最近開いたファイル一覧
 nnoremap <silent> [unite]h :<C-u>Unite -start-insert file_mru<CR>
 " ディレクトリ一覧
