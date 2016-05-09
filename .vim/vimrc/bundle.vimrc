@@ -16,6 +16,17 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " プラグイン管理
 NeoBundle 'https://github.com/Shougo/neobundle.vim.git'
 
+" vimproc
+NeoBundle 'https://github.com/Shougo/vimproc.vim', {
+\ 'build' : {
+\     'windows' : 'tools\\update-dll-mingw',
+\     'cygwin' : 'make -f make_cygwin.mak',
+\     'mac' : 'make',
+\     'linux' : 'make',
+\     'unix' : 'gmake',
+\    },
+\ }
+
 " unite.vim
 NeoBundle 'https://github.com/Shougo/unite.vim.git'
 
